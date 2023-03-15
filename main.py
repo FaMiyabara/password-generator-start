@@ -25,6 +25,8 @@ for number in range(nr_numbers):
 
 print(''.join(password))
 
+#Hard Level - Order of characters randomised:
+#e.g. 4 letter, 2 symbol, 2 number = g^2jk8&P
 password=[]
 for letter in range(nr_letters):
   password.append(random.choice(letters))
@@ -38,5 +40,3 @@ for number in range(nr_numbers):
 random.shuffle(password)
 
 print(''.join(password))
-#Hard Level - Order of characters randomised:
-#e.g. 4 letter, 2 symbol, 2 number = g^2jk8&P
